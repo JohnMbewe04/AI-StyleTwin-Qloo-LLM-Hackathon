@@ -49,8 +49,8 @@ This project was inspired by a fashion-savvy friend who often struggles with the
 
 ## 🎥 Demo Video
 
-Watch the full demo here:
-**👉 AI StyleTwin – Hackathon Demo**
+Watch the full demo here:  
+👉 **[AI StyleTwin – Hackathon Demo](https://youtu.be/7uqX9SrTsu8)**
 
 ---
 
