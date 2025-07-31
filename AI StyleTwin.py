@@ -730,7 +730,7 @@ if "movie_page" not in st.session_state:
 st.set_page_config(page_title="AI StyleTwin", layout="wide")
 
 # 🎨 Backgrounds
-MOVIE_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundMovie.jpg?raw=true" 
+MOVIE_BG = "https://raw.githubusercontent.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/refs/heads/main/wp2714564.webp" 
 MUSIC_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundMusic.jpg?raw=true"
 FASHION_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundFashion.jpg?raw=true"  
 FIT_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundAIStyleTwin.jpg?raw=true"    
