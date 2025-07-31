@@ -50,7 +50,7 @@ This project was inspired by a fashion-savvy friend who often struggles with the
 ## 🎥 Demo Video
 
 Watch the full demo here:  
-**👉 [YouTube Demo]([https://www.youtube.com/watch?v=YOUR_VIDEO_LINK](https://youtu.be/7uqX9SrTsu8))**
+**👉 [YouTube Demo](https://www.youtube.com/watch?v=https://youtu.be/7uqX9SrTsu8)**
 
 ---
 
