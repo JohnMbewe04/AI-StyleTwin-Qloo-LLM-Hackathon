@@ -731,7 +731,7 @@ st.set_page_config(page_title="AI StyleTwin", layout="wide")
 
 # 🎨 Backgrounds
 MOVIE_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundMovie.jpg"  # Example movie-style bg
-MUSIC_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundMusic.jpg"  # Example music-style bg
+MUSIC_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundMusic.jpg?raw=true"
 FASHION_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundFashion.jpg"  # Fashion tab
 FIT_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundAIStyleTwin.jpg"     # Style view tab
 
