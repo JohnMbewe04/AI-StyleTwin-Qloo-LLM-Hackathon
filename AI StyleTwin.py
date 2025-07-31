@@ -730,11 +730,10 @@ if "movie_page" not in st.session_state:
 st.set_page_config(page_title="AI StyleTwin", layout="wide")
 
 # 🎨 Backgrounds
-MOVIE_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundMovie.jpg"  # Example movie-style bg
+MOVIE_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundMovie.jpg?raw=true" 
 MUSIC_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundMusic.jpg?raw=true"
-FASHION_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundFashion.jpg"  # Fashion tab
-FIT_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundAIStyleTwin.jpg"     # Style view tab
-
+FASHION_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundFashion.jpg?raw=true"  
+FIT_BG = "https://github.com/JohnMbewe04/AI-StyleTwin-Qloo-LLM-Hackathon/blob/main/backgroundAIStyleTwin.jpg?raw=true"    
 st.title("🧠 AI StyleTwin")
 st.caption("Discover your aesthetic twin in media and fashion.")
 
