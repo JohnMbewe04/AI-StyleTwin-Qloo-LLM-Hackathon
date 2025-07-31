@@ -665,6 +665,22 @@ def detect_spotify_genre(song_name, token):
 
     return mapped_genre, track["name"] + " - " + track["artists"][0]["name"]
 
+def set_tab_background(image_url):
+    st.markdown(
+        f'''
+        <style>
+        .stApp {{
+            background-image: url("{image_url}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }}
+        </style>
+        ''',
+        unsafe_allow_html=True
+    )
+
+
 # -------------------------------------------------------------------
 # Session State Setup
 # -------------------------------------------------------------------
@@ -712,6 +728,13 @@ if "movie_page" not in st.session_state:
 # Layout
 # -------------------------------------------------------------------
 st.set_page_config(page_title="AI StyleTwin", layout="wide")
+
+# 🎨 Backgrounds
+MOVIE_BG = "https://images.unsplash.com/photo-1517602302552-471fe67acf66"  # Example movie-style bg
+MUSIC_BG = "https://images.unsplash.com/photo-1511376777868-611b54f68947"  # Example music-style bg
+FASHION_BG = "https://images.unsplash.com/photo-1541099649105-f69ad21f3246"  # Fashion tab
+FIT_BG = "https://images.unsplash.com/photo-1593032465171-8b7c8fcf021e"     # Style view tab
+
 st.title("🧠 AI StyleTwin")
 st.caption("Discover your aesthetic twin in media and fashion.")
 
@@ -731,6 +754,7 @@ if st.session_state.active_tab == TAB_MEDIA:
     # 🎬 Mode 1: Fashion Archetypes
     # ----------------------------
     if mode == "🎬 Find My Fashion Style":
+        set_tab_background(MOVIE_BG)
         movie_input = st.text_input("Enter a movie title:")
         selected_genre = st.selectbox("…or pick a genre:", [""] + genre_options)
 
@@ -858,6 +882,7 @@ if st.session_state.active_tab == TAB_MEDIA:
     # 🎵 Mode 2: Music Recommendations
     # ----------------------------
     else:
+        set_tab_background(MUSIC_BG)
         song_input = st.text_input("Enter a song you like:")
         
         if st.button("Get Similar Songs"):
@@ -932,6 +957,7 @@ if st.session_state.active_tab == TAB_MEDIA:
 # Fashion & Brands
 # -------------------------------------------------------------------
 elif st.session_state.active_tab == TAB_FASHION:
+    set_tab_background(FASHION_BG)
     st.header("👚 Fashion & Brand Recommendations")
 
     if not st.session_state.archetypes:
@@ -971,6 +997,7 @@ elif st.session_state.active_tab == TAB_FASHION:
 # -------------------------------------------------------------------
 else:
     st.header("🧍 Style View")
+    set_tab_background(FIT_BG)
 
     style = st.session_state.get("selected_style")
 
