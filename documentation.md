@@ -10,7 +10,6 @@ AI StyleTwin is an AI-powered web app that helps users discover their fashion ae
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Demo Video](#demo-video)
-- [Screenshots](#screenshots)
 - [How to Run](#how-to-run)
 - [Challenges](#challenges)
 - [What's Next](#whats-next)
@@ -51,15 +50,7 @@ This project was inspired by a fashion-savvy friend who often struggles with the
 ## 🎥 Demo Video
 
 Watch the full demo here:  
-**👉 [YouTube Demo](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK)**
-
----
-
-## 📸 Screenshots
-
-| Media Input | Fashion Output |
-|-------------|----------------|
-| ![media](./screenshots/media_input.png) | ![fashion](./screenshots/fashion_output.png) |
+**👉 [YouTube Demo]([https://www.youtube.com/watch?v=YOUR_VIDEO_LINK](https://youtu.be/7uqX9SrTsu8))**
 
 ---
 
