@@ -670,16 +670,27 @@ def set_tab_background(image_url):
         f'''
         <style>
         .stApp {{
-            background-image: url("{image_url}");
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{image_url}");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            color: white;
+        }}
+
+        /* Optional: make main content slightly opaque background */
+        .main {{
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            border-radius: 10px;
+        }}
+
+        .block-container {{
+            padding-top: 2rem;
         }}
         </style>
         ''',
         unsafe_allow_html=True
     )
-
 
 # -------------------------------------------------------------------
 # Session State Setup
